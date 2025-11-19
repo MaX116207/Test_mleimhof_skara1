@@ -1,0 +1,164 @@
+paulp@Arogantxr MINGW64 ~
+$ git clone https://github.com/MaX116207/Test_mleimhof_skara1
+Cloning into 'Test_mleimhof_skara1'...
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 10 (delta 2), reused 6 (delta 1), pack-reused 0 (from 0)
+Receiving objects: 100% (10/10), done.
+Resolving deltas: 100% (2/2), done.
+
+paulp@Arogantxr MINGW64 ~
+$ ls
+ Anwendungsdaten@
+ AppData/
+'Application Data'/
+'Cisco Packet Tracer 6.0.1'/
+ Clion/
+ Contacts/
+ Cookies@
+ Documents/
+ Downloads/
+ Druckumgebung@
+'Eigene Dateien'@
+ Favorites/
+ HTL_STEYR_1AHITN/
+ HTL_STEYR_2AHITN/
+ HTL_STEYR_3AHITN/
+ IdeaSnapshots/
+ KitKat/
+ Links/
+'Lokale Einstellungen'@
+ MHDDoS/
+ Medientechnik/
+ Music/
+ NTUSER.DAT
+ NTUSER.DAT{8e7840a2-f505-11ef-8a66-f8aa3b5678cc}.TM.blf
+ NTUSER.DAT{8e7840a2-f505-11ef-8a66-f8aa3b5678cc}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{8e7840a2-f505-11ef-8a66-f8aa3b5678cc}.TMContainer00000000000000000002.regtrans-ms
+ Netzwerkumgebung@
+ OneDrive/
+'OneDrive - HTBLA Steyr'/
+ PhpstormProjects/
+ Postman/
+ Recent@
+ SEW/
+'Saved Games'/
+ Searches/
+ SendTo@
+ Startmenü@
+ Test_mleimhof_skara1/
+ Videos/
+ Vorlagen@
+ erste_git_uebung/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ obs-studio/
+ system_info.txt
+
+paulp@Arogantxr MINGW64 ~
+$ cd HTL_STEYR_3AHITN/
+
+paulp@Arogantxr MINGW64 ~/HTL_STEYR_3AHITN
+$ ls
+DEU/  ENG/  INSY/  ITP/  ITSI/  Image.jpeg  NWT/  SEW/
+
+paulp@Arogantxr MINGW64 ~/HTL_STEYR_3AHITN
+$ cd ITP
+
+paulp@Arogantxr MINGW64 ~/HTL_STEYR_3AHITN/ITP
+$ ls
+Uebung_GIT_Schueler_2025_2026.docx  erste_git_uebung/  zweiteUebung/
+
+paulp@Arogantxr MINGW64 ~/HTL_STEYR_3AHITN/ITP
+$ cd zweiteUebung/
+
+paulp@Arogantxr MINGW64 ~/HTL_STEYR_3AHITN/ITP/zweiteUebung
+$ git clone ^[[200~https://github.com/MaX116207/Test_mleimhof_skara1~
+Cloning into 'Test_mleimhof_skara1~'...
+fatal: protocol '?[200~https' is not supported
+
+paulp@Arogantxr MINGW64 ~/HTL_STEYR_3AHITN/ITP/zweiteUebung
+$ git clone https://github.com/MaX116207/Test_mleimhof_skara1~
+Cloning into 'Test_mleimhof_skara1~'...
+remote: Repository not found.
+fatal: repository 'https://github.com/MaX116207/Test_mleimhof_skara1~/' not found
+
+paulp@Arogantxr MINGW64 ~/HTL_STEYR_3AHITN/ITP/zweiteUebung
+$ ls
+
+paulp@Arogantxr MINGW64 ~/HTL_STEYR_3AHITN/ITP/zweiteUebung
+$ git clone https://github.com/MaX116207/Test_mleimhof_skara1
+Cloning into 'Test_mleimhof_skara1'...
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 10 (delta 2), reused 6 (delta 1), pack-reused 0 (from 0)
+Receiving objects: 100% (10/10), done.
+Resolving deltas: 100% (2/2), done.
+
+paulp@Arogantxr MINGW64 ~/HTL_STEYR_3AHITN/ITP/zweiteUebung
+$ ls
+Test_mleimhof_skara1/
+
+paulp@Arogantxr MINGW64 ~/HTL_STEYR_3AHITN/ITP/zweiteUebung
+$ git add git add pplatzer.txt
+fatal: not a git repository (or any of the parent directories): .git
+
+paulp@Arogantxr MINGW64 ~/HTL_STEYR_3AHITN/ITP/zweiteUebung
+$ git add pplatzer.txt
+fatal: not a git repository (or any of the parent directories): .git
+
+paulp@Arogantxr MINGW64 ~/HTL_STEYR_3AHITN/ITP/zweiteUebung
+$ git init
+Initialized empty Git repository in C:/Users/paulp/HTL_STEYR_3AHITN/ITP/zweiteUebung/.git/
+
+paulp@Arogantxr MINGW64 ~/HTL_STEYR_3AHITN/ITP/zweiteUebung (master)
+$ git add pplatzer.txt
+fatal: pathspec 'pplatzer.txt' did not match any files
+
+paulp@Arogantxr MINGW64 ~/HTL_STEYR_3AHITN/ITP/zweiteUebung (master)
+$ ls
+Test_mleimhof_skara1/
+
+paulp@Arogantxr MINGW64 ~/HTL_STEYR_3AHITN/ITP/zweiteUebung (master)
+$ cd Test_mleimhof_skara1/
+
+paulp@Arogantxr MINGW64 ~/HTL_STEYR_3AHITN/ITP/zweiteUebung/Test_mleimhof_skara1 (main)
+$
+
+paulp@Arogantxr MINGW64 ~/HTL_STEYR_3AHITN/ITP/zweiteUebung/Test_mleimhof_skara1 (main)
+$
+
+paulp@Arogantxr MINGW64 ~/HTL_STEYR_3AHITN/ITP/zweiteUebung/Test_mleimhof_skara1 (main)
+$
+
+paulp@Arogantxr MINGW64 ~/HTL_STEYR_3AHITN/ITP/zweiteUebung/Test_mleimhof_skara1 (main)
+$ git add pplatzer.txt
+
+paulp@Arogantxr MINGW64 ~/HTL_STEYR_3AHITN/ITP/zweiteUebung/Test_mleimhof_skara1 (main)
+$ git commit -m "Text file commited
+> "
+[main 6e9a5e4] Text file commited
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 pplatzer.txt
+
+paulp@Arogantxr MINGW64 ~/HTL_STEYR_3AHITN/ITP/zweiteUebung/Test_mleimhof_skara1 (main)
+$ git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 238 bytes | 238.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/MaX116207/Test_mleimhof_skara1
+   ff037d4..6e9a5e4  main -> main
+
+paulp@Arogantxr MINGW64 ~/HTL_STEYR_3AHITN/ITP/zweiteUebung/Test_mleimhof_skara1 (main)
+$ git push
+Everything up-to-date
+
+paulp@Arogantxr MINGW64 ~/HTL_STEYR_3AHITN/ITP/zweiteUebung/Test_mleimhof_skara1 (main)
+$
