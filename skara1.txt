@@ -1,0 +1,5 @@
+ab 4.
+git Clone https://github.com/MaX116207/Test_mleimhof_skara1
+git add skara1.txt
+git commit -m "Textfile commited"
+git push
